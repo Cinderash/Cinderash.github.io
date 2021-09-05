@@ -1,0 +1,26 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #01091a;
+}
+
+button{
+  background-color: #01091a;
+  border: 3px solid #f77f00;
+  color: #f77f00;
+  padding: 1em 2em;
+  font-size: 1em;
+  transition: all 0.25s;
+}
+ 
+button:hover{
+  border: 3px solid #ffd400;
+  color: #fff2b2;
+  box-shadow: 0px 0.3em 0.5em -0.2em #ffd400;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+  
+}
